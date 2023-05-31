@@ -3,6 +3,9 @@ module.exports = {
   content: ["./**/*.{html,js}", "./images/**/*"],
   theme: {
     extend: {
+      fontFamily: {
+        outfit: ["Outfit"],
+      },
       colors: {
         lightGray: "hsl(212, 45%, 89%)",
         grayishBlue: "hsl(220, 15%, 55%)",
